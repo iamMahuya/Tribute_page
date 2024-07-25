@@ -1,0 +1,66 @@
+body {
+    padding-top: 30px;
+    background-color: black;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-height: 150px;
+    transition: all 0.2s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.container {
+    background-color: rgb(61, 148, 126);
+    border-radius: 5px;
+}
+
+div.jumbotron {
+	margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+img:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.potrait {
+    width: auto;
+    height: auto;
+    margin: auto;
+    left: 0;
+    right: 0;
+    min-height: 250px;
+}
+
+.content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content ul{
+	list-style-type: none;
+}
+
+.event-content {
+	border-left: solid 2px black;
+}
+
+.panel-title>a {
+	display: block;
+    text-decoration: none;
+}
+
+td>ul {
+    padding:0;
+    list-style-type: square !important;
+}
+
+div.msg {
+    font-family: monospace;
+    font-size: xx-large;
+}
